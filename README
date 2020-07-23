@@ -1,0 +1,43 @@
+File: moonphase.inc.php (https:github.com/szarkos/php-moonphase)
+Calculate information about the phase of the moon at a given time.
+ 
+Based on the Perl module Astro::MoonPhase, version 0.60.
+http:search.cpan.org/~brett/Astro-MoonPhase-0.60/MoonPhase.pm
+
+This is a functional code example (more like the original perl modules),
+however an OO variant can be found here: https://github.com/inetlover/moonphase
+
+ 
+License:
+ 
+Astro::MoonPhase module is distributed under the public domain,
+and therefore so is this PHP translation.
+
+Credits:
+
+The moontool.c Release 2.0:
+A Moon for the Sun
+Designed and implemented by John Walker in December 1987,
+revised and updated in February of 1988.
+
+Initial Perl transcription:
+Raino Pikkarainen, 1998
+raino.pikkarainen@saunalahti.fi
+
+The moontool.c Release 2.4:
+Major enhancements by Ron Hitchens, 1989
+
+Revisions:
+Brett Hamilton  http:simple.be/
+Bug fix, 2003
+Second transcription and bugfixes, 2004
+
+Christopher J. Madsen  http:www.cjmweb.net/
+Added phaselist function, March 2007
+
+Translated to PHP by Stephen A. Zarkos <obsid@sentry.net>, 2007
+Fixed broken phasehunt function, 2008-10-27
+Added phaselist function, 2008-10-27
+
+Documentation:
+http:search.cpan.org/~brett/Astro-MoonPhase-0.60/MoonPhase.pm
